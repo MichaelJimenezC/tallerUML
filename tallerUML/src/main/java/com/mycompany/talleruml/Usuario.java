@@ -4,6 +4,8 @@
  */
 package com.mycompany.talleruml;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
@@ -13,6 +15,7 @@ public abstract class Usuario {
     protected String contraseña;
     protected String nombre;
     protected String apellido;
+    protected ArrayList<Incidente> incidentes;
 
     public Usuario(String usuario, String contraseña, String nombre, String apellido) {
         this.usuario = usuario;

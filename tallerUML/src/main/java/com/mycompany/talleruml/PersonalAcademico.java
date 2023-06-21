@@ -4,11 +4,14 @@
  */
 package com.mycompany.talleruml;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
  */
 public class PersonalAcademico extends Usuario{
+    protected ArrayList<Incidente> incidentes;
     
     public PersonalAcademico(String usuario, String contraseña, String nombre, String apellido) {
         super(usuario, contraseña, nombre, apellido);
