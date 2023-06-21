@@ -1,7 +1,6 @@
 
 package com.mycompany.talleruml;
-import java.time.LocalDate;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class ActividadSumativa {
     protected String titulo;

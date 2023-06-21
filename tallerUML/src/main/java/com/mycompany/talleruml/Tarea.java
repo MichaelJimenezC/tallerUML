@@ -1,6 +1,7 @@
 
 package com.mycompany.talleruml;
-import java.util.Date;
+
+import java.time.LocalDateTime;
 
 
 public class Tarea extends ActividadSumativa{
