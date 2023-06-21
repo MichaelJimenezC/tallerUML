@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author CltControl
  */
-public abstract class Usuario {
+public class Usuario {
     protected String usuario;
     protected String contraseña;
     protected String nombre;
