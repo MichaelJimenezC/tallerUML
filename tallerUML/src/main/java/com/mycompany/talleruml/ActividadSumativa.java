@@ -1,5 +1,6 @@
 
 package com.mycompany.talleruml;
+import java.util.ArrayList;
 import java.util.Date;
 
 public abstract class ActividadSumativa {
@@ -9,7 +10,7 @@ public abstract class ActividadSumativa {
     protected String contenido;
     protected float calificacion;
     protected String id;
-
+    private ArrayList<ActividadSumativa> actividadesSumativas[];
     
     
     

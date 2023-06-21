@@ -4,6 +4,7 @@
  */
 package com.mycompany.talleruml;
 
+import Autenticacion.MetodoAutenticacion;
 import java.util.ArrayList;
 
 /**
@@ -25,12 +26,12 @@ public class Usuario {
     }
     
     
-    protected  boolean logIn(){
+    protected  boolean logIn(MetodoAutenticacion autenticar){
     
         return false;
     
     }
-    protected  boolean logOut(){
+    protected  boolean logOut(MetodoAutenticacion autentico){
         
         return false;
         
