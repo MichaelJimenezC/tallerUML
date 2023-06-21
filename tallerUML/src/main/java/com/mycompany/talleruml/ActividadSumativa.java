@@ -2,7 +2,7 @@
 package com.mycompany.talleruml;
 import java.util.Date;
 
-public class ActividadSumativa {
+public abstract class ActividadSumativa {
     protected String titulo;
     protected Date fechaDeEntrega;
     protected float puntajeMaximo;
